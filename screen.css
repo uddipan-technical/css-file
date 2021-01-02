@@ -1,0 +1,506 @@
+#parent{
+    border: 1px solid red;
+    height: 50vh;
+    width: 50vw;
+}
+#child{
+    border: 1px solid green;
+    width: 50%;
+    margin-top: 50px;
+
+}/*cursor value css just type in browser & you get a lot of property*/
+#curosor{
+    border:1px solid rgb(184, 14, 14);
+    cursor: /*progress*/zoom-in;
+}
+/*Opacity setting*/
+#box{
+    background-color: green;
+    height: 200px;
+    width: 500px;
+
+}
+#red-box{
+    background-color: rgb(128, 0, 0);
+    height: 200px;
+    width: 300px;
+    margin-top: -50px;
+    opacity: 0.4;
+}
+
+/*FILTER
+img{
+    filter: blur(10px);
+    filter: drop-shadow();
+    filter: grayscale();
+    filter: hue-rotate();
+    filter:invert();/*%dite hove
+    filter: opacity();
+    filter: saturate();
+    filter: sepia();
+
+
+}
+*/
+/*sprite*/
+#sprite{
+    height: 128px;
+    background-image: url(img/flag.jpg);
+    background-repeat: no-repeat;
+    
+}
+#sprite2{
+    height: 128px;
+    background-image: url(img/flag.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px -160px;
+    margin-top: 30px;
+}
+#sprite3{
+    height: 128px;
+    background-image: url(img/flag.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px -320px;
+    margin-top: 30px;
+}
+
+/* Gradient:
+1.First Linear
+2.redious
+*/
+#grediant{
+
+    height: 500px;
+    border: 1px solid gray;
+    background-image: linear-gradient(green,blue,red);
+}
+#grediant2{
+    margin-top: 40px;
+    height: 500px;
+    border: 1px solid gray;
+    background-image: linear-gradient(to right,green,blue,red);
+}
+#grediant3{
+    margin-top: 40px;
+    height: 500px;
+    border: 1px solid gray;
+    background-image: linear-gradient(to bottom right,yellow, green,blue);
+}
+#grediant4{
+    margin-top: 40px;
+    height: 500px;
+    border: 1px solid gray;
+    background-image: linear-gradient(120deg, yellow, green,blue);
+}
+/*Radias*/
+#radious{
+    margin-top: 40px;
+    height: 500px;
+    border: 1px solid gray;
+    background-image: radial-gradient( yellow, green);
+}
+#radious2{
+    margin-top: 40px;
+    height: 500px;
+    border: 1px solid gray;
+    background-image: radial-gradient(circle, yellow 20%, green 39%,blue 50%);
+}
+#radious3{
+    margin-top: 40px;
+    height: 500px;
+    border: 1px solid gray;
+    background-image: radial-gradient(yellow, green,blue);
+}
+#radious4{
+    margin-top: 40px;
+    height: 500px;
+    border: 1px solid gray;
+    background-image: radial-gradient(yellow, green,blue);
+}
+
+
+/*overflow
+ overflow-x: hidden;
+    overflow-y: scroll;
+    
+*/
+#overflow{
+    background-color: whitesmoke;
+    border: 1px solid red;
+    width: 500px;
+    height: 300px;
+    overflow: auto;
+    resize: both;
+
+}
+/*Re-size Property:
+1.Horizontal
+2.Vertical
+3.Both
+*/
+/*Un-order List style Property:
+1.list-style-type: ;none,square,circle
+2.list-style-image: image();
+*/
+ul{
+list-style-image:url('img/ar.png');
+
+}
+/*
+li{
+    border: 5px solid green;
+    list-style-position: inside;
+}
+*/
+/*Order list style Property:
+1.list-style-type: upper-alpha,lower-alpha,upper-roman,lower-roman,
+upper-latin,lower-latin,decimal-leading-zero,decimal
+*/
+ol{
+list-style-type: upper-alpha;
+list-style-type: ;
+}
+caption{
+    border: 1px solid red;
+    caption-side: bottom;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    
+
+}
+table{
+    border: 1px solid red;
+    border-collapse: collapse;
+    text-align: center;
+    width: 600px;
+    border-spacing: ;
+    empty-cells: hide;
+    table-layout: auto;
+}
+   
+th{
+    border: 1px solid red;
+    height: 50px;   
+}
+td{
+    border: 1px solid red;
+    height: 30px;
+   
+}
+/**** very very import*/
+
+
+:root{
+    --primary-color:yellow;
+    --btn-color:green;
+    --text-color:black;
+}
+#fun{
+    background-color: var( --primary-color);
+    height: 300px;
+    width: calc(100% - 200px);
+}
+/*
+a{
+    padding: 10px 20px;
+    margin: 20px;
+    background-color: tomato;
+    text-decoration: none;
+}
+*/
+
+
+/*Box Sizing*/
+#box1{
+    width: 50%;
+    height: 300px;
+    background-color: tomato;
+
+}
+#box2{
+    width: 50%;
+    height: 300px;
+    background-color: chocolate;
+    padding: 30px;
+    border: 5px solid black;
+    box-sizing: content-box;
+}
+
+/*Initial-Inherite*/
+#green{
+    color: green;
+
+}
+#blue{
+   color: black;
+}
+#initial{
+   color: initial;
+}
+#inherite{
+    color: inherit;
+}
+/*Object-Fit Property*/
+#objest img{
+    width: 500px;
+    height: 300px;
+    border:2px solid red;
+    object-fit: contain;
+    object-position: left top;
+}
+
+
+
+/*Psedu-class Property
+li:last-child{
+    color: red;
+}
+li:first-child{
+    color: red;
+}
+li:nth-child(4){
+    color: red;
+}
+
+li:nth-child(even){
+    color: red;
+}
+li:nth-child(odd){
+    color: red;
+}
+*/
+li:nth-child(4n+2){
+    color: red;
+}
+input:focus{
+    border: 5px solid red;
+
+}
+/* Psedu-Element Property
+p::first-letter{
+    font-size: 40px;
+    color: red;
+}
+h1::before{
+    content: url(img/ar.png);
+}
+h1::after{
+    content: url(img/ar.png);
+    position: relative;
+    left: 20px;
+}
+::selection{
+    color: white;
+    background-color: black;
+}
+*/
+/* Display Property:
+1.block
+2.inline
+3.inline-block
+4.none
+ visibility:hidden;
+ display:none;
+*/
+/*3d Transform Property:*/
+#cover{
+    border: 1px solid red;
+    height: 200px;
+    width: 200px;
+    margin: 150px;
+
+}
+#content{
+    height: 200px;
+    width: 200px;
+    background-color: yellowgreen;
+    /*transform: perspective(300px) translate3d(50px, 50px, 0px);*/
+    transform: perspective(300px) rotate3d(0, 80, 10, 10deg);
+
+}
+
+/*Transition Property:*/
+#div1{
+    margin: 150px;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    transition-property: /*background-color width height;*/all;
+    transition-duration: 1s;
+    transition-delay: 500ms;
+    transition-timing-function: ease-in-out;
+     
+}
+#div1:hover{
+    width: 300px;
+    height: 300px;
+    background-color: yellowgreen;
+}
+/*Animation Property:-
+1.First creat Keyframe with Name.
+2.Put From for start.
+3. Put To for end.
+4.How many times you wants to animated, use
+ animation-iteration-count:2,3,4,5,6,7 etc
+ for continue use infinite ;
+*/
+@keyframes animation{
+    0%  {background-color: black; border-radius: 1%;}
+    10% {background-color: gray; border-radius: 10%;}
+    20% {background-color: yellow; border-radius: 20%;}
+    30% {background-color: chocolate; border-radius: 30%;}
+    40% {background-color: teal; border-radius: 40%;}
+    50% {background-color: orange; border-radius: 50%;}
+    60% {background-color: green; border-radius: 40%;}
+    70% {background-color: yellowgreen; border-radius: 30%;}
+    80% {background-color: red; border-radius: 20%;}
+    100% {background-color: blue; border-radius: 10%;}
+
+   /* From {background-color: red;}
+    to {background-color: black;}*/
+}
+#animation{
+    width: 500px;
+    height: 300px;
+    background-color: yellowgreen;
+    animation-name: animation;
+    animation-duration: 10s;
+    animation-delay: ;
+    animation-iteration-count:infinite ;
+    animation-timing-function: linear;
+}
+/*Print Property
+body{
+    height: 2000px;
+}
+
+    P{font-size: 20px;
+
+}
+@media print{
+    p{font-size: 30px;}
+    img{
+        display: none;
+    }
+    div{
+        width: 50%;
+    }
+
+}
+*/
+/*Responsive Property:
+1.<meta name="viewport" content="width=device-width, initial-scale=1.0">
+2.@media screen and (max-width:768px){}
+3.@media screen and (mini-width:768px){}
+@media screen and (max-width:768px) and (mini-width:768px){}
+*/
+#res{
+    width: 70%;
+    background-color: rosybrown;
+    float: left;
+}
+#res1{
+    width: 30%;
+    background-color: gainsboro;
+    float: left;
+}
+#rw{
+    font-size: 80px;
+}
+@media screen and (max-width:768px){
+    #res{
+        width: 50%;
+    }
+    #res1{
+        width: 50%
+    }
+}
+/*Advance Selector Property:
+1.type selector
+2.h1,h2.....
+3.ID 
+4.class
+5.Universal Selector
+6.combinator  "
+.class-p span{}
+7.Add Selector
+8.input type
+exmp:input[type="element"]
+*{
+    border:1px solid red;All elements 
+}
+/*Multiple coloum Property*/
+#multiple{
+    column-count: 6;
+    column-gap: 30px;
+    column-rule:1px solid red;
+}
+#mh1{
+
+    column-span: all;
+}
+/*Flex-Box Property
+1.flex-basis: 100px;
+2.flex-direction: row-reverse;
+3.display: flex;
+4.flex-flow: row-reverse wrap;
+5.flex-grow: 1;
+6. flex-shrink: 3;
+7. display: flex;  
+8.flex-wrap: wrap;
+9.align-self:flex-start,flex-center,flex-end;
+*/
+.flex-container{
+    background-color: red;
+    display: flex;
+    /*flex-direction:row-reverse,column;*/
+    flex-wrap: nowrap/*nowrap*/;
+    /*flex-flow: row wrap;*/
+    /*justify-content:centerflex-startflex-end;*/
+    justify-content: /*space-around*/space-between;*/
+    height: 50vh;
+    align-items: stretch;
+    
+
+}
+.flex-child{
+    background-color: wheat;
+
+    margin: 20px;
+    padding: 20px;
+    width: 100px;
+    text-align:center;
+
+}
+
+
+/*Grid property
+grid-area: 2 / 1 / span 2 / span 3;
+}
+.grid-container {
+    display: grid;
+    grid-auto-columns: 50px;
+  grid-auto-flow: column;
+  grid-auto-rows: 150px;
+  grid-column: 1 / span 2;
+  grid-column-end: span 3;
+  grid-column-gap: 50px;
+  grid-column-start: 2;
+  grid-gap: 50px;
+  grid-gap: 50px;
+  grid-row-end: span 3;
+  grid-row-gap: 50px;
+  grid-row-start: 2;
+  grid-template: 150px / auto auto auto;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 100px 300px;
+   grid-template-areas:"my area"
+}
+.item1 {
+    grid-area: myArea;
+}
+*/
+
+
+

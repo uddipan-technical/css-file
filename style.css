@@ -1,0 +1,141 @@
+/*heading start*/
+body{
+    width: 100%;
+    border: 1px solid red;
+}
+@font-face{
+    font-family: abc;
+    src: url(fonts/CatcallingDemoRegular.ttf)
+}
+.green-text {
+    color:#ffd700;
+}
+.heading{
+    font-size: 50px;
+}
+/*heading end*/
+
+
+/*color start*
+#bg{
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 5% 10%;
+    background-size: contain;
+    background-attachment:fixed;
+}
+/*multiple background*/
+
+#bg{
+    background-image: url(img/bg.jpg), url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-color: red;
+    background-position: left top, right bottom;
+}
+/*border*/
+#border{
+    border-style: outset;
+    border-style: inset;
+    border-style: none;
+    border-style: solid dashed none dotted;/*clockwoise*/
+    border-width: 5px;/*as required you can set*/
+    border-color: red green yellow blue;
+    border-radius: 40% 30% 25% 20%;/*use as per required*/
+   
+
+}
+/*Border input direction for top position
+border-top-style: solid;
+border-top-width: 2px;
+border-top-color: red;
+*/
+
+/*width-height*/
+#width-height{
+    background-color: red;
+    height: 100px;/*you can set as you required*/
+    width: 70%;/*you can set as you required*/
+    max-width: 500px;/*you can set as you required*/
+    max-width: 800px;
+}
+
+    
+/*padding*/
+#padding{
+    border: 1px solid red;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20%;
+    padding-right: 20%;
+   /* padding: 25px 30px 25px 30px; if you want to padding one line*/
+}
+/*Box Model*/
+
+
+/*Text*/
+#text{
+    /*
+    border: 1px solid black;
+    text-align: justify;
+    */
+    direction: rtl;
+    /*text-decoration: none,underline,overline,line-through;*/
+    text-transform: capitalize;
+    font-size: 15px;
+    line-height: 20px;
+    text-indent: 20px;
+    letter-spacing: ;
+    word-spacing: ;
+    /*white-space: normal,nowrap,pre;*/
+    word-wrap: break-word;
+
+}
+/*Shadow
+#shadow{
+    font-size: 40px;
+    text-shadow: 10px 10px 5px red;
+}
+*/
+#shadow{
+    writing-mode: vertical-rl,/*vertical-lr*/;
+}
+
+/* For link style*/
+a:link{
+    color: yellowgreen;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: orange;
+}
+a:active{
+    color: red;
+}
+
+
+/*font*/
+p{
+    /*font-variant: normal,small-caps,inherit;*/
+    font-family: abc;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*Browsing related screen setting er jonno*/
+
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}

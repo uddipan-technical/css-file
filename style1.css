@@ -1,0 +1,30 @@
+body{
+     font-family: arial;
+}
+
+#head1{
+    
+    width: 300px;
+    border-top: 1px solid #F0F0F0 !important;
+    border-bottom: 1px solid #F0F0F0 !important;
+    display: inline-block;
+}
+span{
+
+    color: #0074E8;
+}
+#p1{
+
+    color: #2B2B2B;
+    font-weight: 600px;
+    float: left;
+}
+#p2{
+    
+    float: right;
+    color: #A8A8A8;
+    font-size: 13px;
+    margin-top: 18px;
+   
+}
+span {
